@@ -17,7 +17,7 @@ except KeyError:
 
 # --- Inicialização do Modelo e das Chains ---
 try:
-    llm = ChatGoogleGenerativeAI(model="gemini-pro", google_api_key=api_key)
+    llm = ChatGoogleGenerativeAI(model="gemini-1.5-pro-latest", google_api_key=api_key)
 
     # Prompt Template para texto
     text_prompt_template = """
